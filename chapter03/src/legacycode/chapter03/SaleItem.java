@@ -3,7 +3,7 @@ package legacycode.chapter03;
 public class SaleItem {
 
 	private String name;
-	private int price;
+	private double price;
 
 	public String getName() {
 		return name;
@@ -12,10 +12,10 @@ public class SaleItem {
 		this.name = name;
 	}
 
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	
