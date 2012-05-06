@@ -43,4 +43,9 @@ bool CAsyncSslRec::Init() {
 
 	return true;
 }
+
+void CAsyncSslRec::PostReceiveError(unsigned int type, unsigned int errorcode) {
+	//‚±‚±‚ÅPostReceiveError‚ğŒÄ‚Ño‚·
+	PostReceiveError(type, errorcode);
+}
 } /* namespace legacycode */

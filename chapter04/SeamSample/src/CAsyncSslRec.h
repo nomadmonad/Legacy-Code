@@ -28,6 +28,7 @@ public:
 	virtual ~CAsyncSslRec();
 
 	bool Init();
+	virtual void PostReceiveError(unsigned int type, unsigned int errorcode);
 };
 
 } /* namespace legacycode */
